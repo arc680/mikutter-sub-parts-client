@@ -13,9 +13,11 @@ mikutter.rbがあるディレクトリにある plugin/ 以下か、 ~/.mikutter
   - sub_parts_client
     - README
     - sub_parts_client.rb
+    - sub_parts_client_cfg.rb
 
 * 使いかた
 普通にこれで起動したらもう表示されてるでしょ
+多分こっちのバージョンだとcfgがないとどうなるかわからんつぃん
 
 * カスタマイズ
-なんか魔改造したらぜひ
+sub_parts_client_cfg.rbでマージンを設定できるようにしてみた

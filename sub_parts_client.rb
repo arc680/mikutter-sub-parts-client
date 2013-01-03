@@ -10,7 +10,8 @@ class Gdk::SubPartsClient < Gdk::SubParts
 
   def initialize(*args)
     super
-    @margin = 2
+    @margin = UserConfig[:user_margin]
+
     if message and not helper.visible?
       sid = helper.ssc(:expose_event, helper){
         helper.on_modify
